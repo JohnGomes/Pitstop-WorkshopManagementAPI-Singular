@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Projects\Pitstop-WorkshopManagementApi-Singular" t="IncludeRecursive">
+      <e p="appsettings.Development.json" t="Include" />
+      <e p="appsettings.json" t="Include" />
+      <e p="appsettings.Production.json" t="Include" />
+      <e p="AutomapperConfig.cs" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="CommandHandlers" t="Include">
+        <e p="CommandHandlersDIRegistration.cs" t="Include" />
+        <e p="FinishMaintenanceJobCommandHandler.cs" t="Include" />
+        <e p="IFinishMaintenanceJobCommandHandler.cs" t="Include" />
+        <e p="IPlanMaintenanceJobCommandHandler.cs" t="Include" />
+        <e p="PlanMaintenanceJobCommandHandler.cs" t="Include" />
+      </e>
+      <e p="Commands" t="Include">
+        <e p="FinishMaintenanceJob.cs" t="Include" />
+        <e p="PlanMaintenanceJob.cs" t="Include" />
+        <e p="RegisterPlanning.cs" t="Include" />
+      </e>
+      <e p="Controllers" t="Include">
+        <e p="RefDataController.cs" t="Include" />
+        <e p="WorkshopPlanningController.cs" t="Include" />
+      </e>
+      <e p="docker-compose.local.yml" t="Include" />
+      <e p="docker-compose.yml" t="Include" />
+      <e p="Dockerfile" t="Include" />
+      <e p="Domain" t="Include">
+        <e p="Customer.cs" t="Include" />
+        <e p="Exceptions" t="Include">
+          <e p="BusinessRuleViolationException.cs" t="Include" />
+          <e p="MaintenanceJobNotFoundException.cs" t="Include" />
+        </e>
+        <e p="MaintenanceJob.cs" t="Include" />
+        <e p="MaintenanceJobRules.cs" t="Include" />
+        <e p="Vehicle.cs" t="Include" />
+        <e p="WorkshopPlanning.cs" t="Include" />
+        <e p="WorkshopPlanningRules.cs" t="Include" />
+      </e>
+      <e p="Events" t="Include">
+        <e p="MaintenanceJobFinished.cs" t="Include" />
+        <e p="MaintenanceJobPlanned.cs" t="Include" />
+        <e p="WorkshopPlanningCreated.cs" t="Include" />
+      </e>
+      <e p="Models" t="Include">
+        <e p="BusinessRuleViolation.cs" t="Include" />
+      </e>
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp2.2" t="Include">
+            <e p="WorkshopManagementAPI.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Program.cs" t="Include" />
+      <e p="Properties" t="Include">
+        <e p="launchSettings.json" t="Include" />
+      </e>
+      <e p="README.md" t="Include" />
+      <e p="Repositories" t="Include">
+        <e p="ConcurrencyException.cs" t="Include" />
+        <e p="ICustomerRepository.cs" t="Include" />
+        <e p="IVehicleRepository.cs" t="Include" />
+        <e p="IWorkshopPlanningRepository.cs" t="Include" />
+        <e p="Model" t="Include">
+          <e p="Aggregate.cs" t="Include" />
+          <e p="AggregateEvent.cs" t="Include" />
+          <e p="Customer.cs" t="Include" />
+          <e p="Vehicle.cs" t="Include" />
+        </e>
+        <e p="SqlServerRefDataRepository.cs" t="Include" />
+        <e p="SqlServerWorkshopPlanningRepository.cs" t="Include" />
+      </e>
+      <e p="Startup.cs" t="Include" />
+      <e p="WorkshopManagementAPI.csproj" t="IncludeRecursive" />
+      <e p="wwwroot" t="Include">
+        <e p="index.html" t="Include" />
+      </e>
+    </e>
+    <e p="C:\Users\johnG\.Rider2019.1\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\johnG\.Rider2019.1\config\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\johnG\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\johnG\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_.19.01" t="ExcludeRecursive" />
+  </component>
+</project>
